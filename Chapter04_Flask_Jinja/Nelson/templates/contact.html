@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block title %}
+Contact
+{% endblock %}
+
+{% block content %}
+
+<section class="page-section">
+
+    <div class="container">
+
+        <div class="contact-wrapper">
+
+            <div class="contact-left">
+
+                <span class="project-status status-active">
+                    Contact
+                </span>
+
+                <h1 class="about-title">
+                    Let’s build something powerful.
+                </h1>
+
+                <p class="hero-text">
+                    Open for collaborations, infrastructure projects,
+                    backend systems and cybersecurity solutions.
+                </p>
+
+                <div class="contact-info">
+
+                    <div class="contact-item">
+                        <span>Email</span>
+                        <h3>
+                            <a href="mailto:nesitevanyan9@gmail.com">
+                                nesitevanyan9@gmail.com
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>GitHub</span>
+                        <h3>
+                            <a href="https://github.com/Nelson-127" target="_blank">
+                                github.com/Nelson-127
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>Location</span>
+                        <h3>Tbilisi, Georgia</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="contact-card">
+
+                <form>
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                    >
+
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                    >
+
+                    <textarea
+                        placeholder="Tell me about your project"
+                    ></textarea>
+
+                    <button class="primary-btn">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}
