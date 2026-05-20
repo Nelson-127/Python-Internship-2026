@@ -1,8 +1,6 @@
-import dataclasses
-
 from flask import Flask, render_template, request
 
-from Chapter05_Forms.Nelson.forms import ContactForm
+from forms import ContactForm
 
 app = Flask(__name__)
 

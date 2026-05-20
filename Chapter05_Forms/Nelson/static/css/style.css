@@ -4,14 +4,15 @@ body {
     font-family: Inter, sans-serif;
     overflow-x: hidden;
     position: relative;
-    background-image: linear-gradient(
-            rgba(255, 255, 255, 0.02) 1px,
-            transparent 1px
+    background-image:
+    linear-gradient(
+        rgba(255,255,255,0.02) 1px,
+        transparent 1px
     ),
     linear-gradient(
-            90deg,
-            rgba(255, 255, 255, 0.02) 1px,
-            transparent 1px
+        90deg,
+        rgba(255,255,255,0.02) 1px,
+        transparent 1px
     );
 
     background-size: 60px 60px;
@@ -24,8 +25,9 @@ body::before {
 
     inset: 0;
 
-    background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
 
     background-size: 40px 40px;
 
@@ -207,7 +209,8 @@ main,
     min-height: 500px;
     margin-top: 40px;
 
-    box-shadow: 0 0 40px rgba(59, 130, 246, 0.08);
+    box-shadow:
+        0 0 40px rgba(59, 130, 246, 0.08);
 
     animation: floatCard 5s ease-in-out infinite;
 }
@@ -341,11 +344,12 @@ main,
 .primary-btn,
 .secondary-btn,
 .nav-link {
-    transition: transform 0.3s ease,
-    box-shadow 0.3s ease,
-    border-color 0.3s ease,
-    background-color 0.3s ease,
-    color 0.3s ease;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease,
+        background-color 0.3s ease,
+        color 0.3s ease;
 }
 
 .project-card h3 {
@@ -403,11 +407,12 @@ main,
 ========================= */
 
 .featured-project {
-    background: linear-gradient(
+    background:
+        linear-gradient(
             135deg,
             rgba(59, 130, 246, 0.12),
             rgba(17, 24, 39, 1)
-    );
+        );
 
     border: 1px solid #3B82F6;
     border-radius: 28px;
@@ -479,7 +484,8 @@ main,
 
     border-color: #3B82F6;
 
-    box-shadow: 0 0 25px rgba(59, 130, 246, 0.18);
+    box-shadow:
+        0 0 25px rgba(59, 130, 246, 0.18);
 }
 
 .visual-card span {
@@ -639,9 +645,10 @@ footer {
 .visual-card,
 .contact-form,
 .skill-card {
-    transition: transform 0.3s ease,
-    border-color 0.3s ease,
-    box-shadow 0.3s ease;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
 .project-card:hover,
@@ -655,8 +662,9 @@ footer {
 }
 
 .nav-link {
-    transition: color 0.3s ease,
-    transform 0.3s ease;
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
 }
 
 .nav-link:hover {
@@ -687,16 +695,18 @@ html {
 
     z-index: 0;
 
-    transition: transform 0.08s linear,
-    opacity 0.3s ease;
+    transition:
+        transform 0.08s linear,
+        opacity 0.3s ease;
 }
 
 .project-card,
 .service-card,
 .contact-form {
-    transition: transform 0.25s ease,
-    border-color 0.25s ease,
-    box-shadow 0.25s ease;
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
 }
 
 .project-card:hover,
@@ -707,7 +717,8 @@ html {
 
     border-color: rgba(59, 130, 246, 0.5);
 
-    box-shadow: 0 0 30px rgba(59, 130, 246, 0.18);
+    box-shadow:
+        0 0 30px rgba(59, 130, 246, 0.18);
 }
 
 ::selection {
@@ -730,4 +741,28 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(59, 130, 246, 0.7);
+}
+
+.form-error {
+    color: #ff6b6b;
+
+    font-size: 0.9rem;
+
+    margin-top: -10px;
+    margin-bottom: 12px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+
+    padding: 16px;
+
+    background: rgba(255, 255, 255, 0.03);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    border-radius: 14px;
+
+    color: white;
 }
